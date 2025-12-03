@@ -1,0 +1,15 @@
+{
+    "analysis_name": "analysis_lumped",
+    "run_name": "oper_GPM-Final",
+    "mode": "train",
+    "dataset": "CAMELS-US_HUCAll_lumped",
+    "cuda_num": 0,
+    "seed": 42,
+    "shuffle": true,
+    "num_epochs": 32,
+    "eval_every": 4,
+    "train_start_date": "1999-10-01",
+    "train_end_date": "2009-09-30",
+    "val_start_date": "1999-10-01",
+    "val_end_date": "2019-09-30"
+}

@@ -1,0 +1,15 @@
+# Do not commit bulky data to GitHub
+# data/
+data/datasets/
+data/experiments/*/predictions/
+data/experiments/*/metrics/
+data/experiments/hist_regional/results/
+data/experiments/hist_regional/analysis/*/*/*.npy
+data/experiments/hist_regional/analysis/*/*/metrics_*_gauge.nc
+
+# Ignore all pyc and __pycache__ files
+**/__pycache__/
+**/*.pyc
+
+# Ignore some notebooks
+**/ignore_*.ipynb

@@ -1,0 +1,41 @@
+{
+  "dim_in_embedding_lag_static": 77,
+  "dim_out_embedding_lag_static": 8,
+  "layers_embedding_lag_static": [32, 16],
+  "dropout_embedding_lag_static": 0.25,
+
+  "dim_in_embedding_lag_dynamic_era5": 24,
+  "dim_in_embedding_lag_dynamic_gpm_final": 5,
+  "dim_in_embedding_lag_dynamic_gpm_late": 5,
+  "dim_out_embedding_lag_dynamic": 16,
+  "layers_embedding_lag_dynamic": [64, 32],
+  "dropout_embedding_lag_dynamic": 0.25,
+
+  "dim_in_encoder_lag": null,
+  "dim_h_encoder_lag": 256,
+  "n_layers_encoder_lag": 1,
+  "bidirectional_encoder_lag": false,
+  "batch_first_encoder_lag": false,
+
+  "dim_in_embedding_lead_static": 77,
+  "dim_out_embedding_lead_static": 8,
+  "layers_embedding_lead_static": [32, 16],
+  "dropout_embedding_lead_static": 0.25,
+
+  "dim_in_embedding_lead_dynamic": 9,
+  "dim_out_embedding_lead_dynamic": 16,
+  "layers_embedding_lead_dynamic": [64, 32],
+  "dropout_embedding_lead_dynamic": 0.25,
+
+  "dim_in_transition": 256,
+  "dim_out_transition": 256,
+  "layers_transition": [256],
+  "dropout_transition": 0.25,
+
+  "dim_in_decoder_lead": null,
+  "dim_h_decoder_lead": 256,
+  "n_layers_decoder_lead": 1,
+  "bidirectional_decoder_lead": false,
+  "batch_first_decoder_lead": false,
+  "dim_out_decoder_lead": 1
+}
